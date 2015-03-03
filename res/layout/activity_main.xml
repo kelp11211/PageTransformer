@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+     tools:context="${relativePackage}.${activityClass}" >
+	
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer" />
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/footer_height"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="@dimen/footer_padding_ud"
+        android:paddingTop="@dimen/footer_padding_ud" >
+
+        <Button
+            android:id="@+id/footer_button_page0"
+            android:layout_width="@dimen/footer_inner_width"
+            android:layout_height="@dimen/footer_inner_height"
+            android:background="@drawable/footer_item_unselected" />
+
+        <Button
+            android:id="@+id/footer_button_page1"
+            android:layout_width="@dimen/footer_inner_width"
+            android:layout_height="@dimen/footer_inner_height"
+            android:layout_marginLeft="@dimen/footer_inner_item_margin"
+            android:layout_marginStart="@dimen/footer_inner_item_margin"
+            android:layout_toEndOf="@id/footer_button_page0"
+            android:layout_toRightOf="@id/footer_button_page0"
+            android:background="@drawable/footer_item_unselected" />
+
+        <Button
+            android:id="@+id/footer_button_page2"
+            android:layout_width="@dimen/footer_inner_width"
+            android:layout_height="@dimen/footer_inner_height"
+            android:layout_marginLeft="@dimen/footer_inner_item_margin"
+            android:layout_marginStart="@dimen/footer_inner_item_margin"
+            android:layout_toEndOf="@id/footer_button_page1"
+            android:layout_toRightOf="@id/footer_button_page1"
+            android:background="@drawable/footer_item_unselected" />
+    </RelativeLayout>
+    
+</RelativeLayout>

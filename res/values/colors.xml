@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#000000</color>
+    <color name="actionbar">#3A5FA8</color>
+    <color name="footer_item_unseletced_color">#FFFFFF</color>
+    <color name="footer_item_seletced_color">#FF0078</color>
+    <color name="page0_background">#328750</color>
+    <color name="page1_background">#30ACAC</color>
+    <color name="page2_background">#DA416E</color>
+</resources>

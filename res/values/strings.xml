@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Default -->
+    <string name="app_name">PageTransformer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<!-- Page Title -->
+	<string name="title_page0">Page 0</string>
+	<string name="title_page1">Page 1</string>
+	<string name="title_page2">Page 2</string>
+	<!-- Page Transformer -->
+	<string name="action_transformer_depth">Depth</string>
+	<string name="action_transformer_zoomout">ZoomOut</string>
+	<string name="action_transformer_upperfan">UpperFan</string>
+	<string name="action_transformer_lowerfan">LowerFan</string>
+	<string name="action_transformer_default">Default</string>
+	<string name="action_transformer_cube">Cube</string>
+	<string name="action_transformer_turnstile">TurnStile</string>
+</resources>
